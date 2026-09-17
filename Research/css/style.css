@@ -1,0 +1,180 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Lato',sans-serif; background:#f9f7f4; color:#1e1e1e; line-height:1.6; }
+        h1,h2,h3,h4 { font-family:'Montserrat',sans-serif; font-weight:700; letter-spacing:-0.02em; }
+        .container { max-width:1200px; margin:0 auto; padding:0 1.5rem; }
+        header { background:#fff; padding:0.8rem 0; position:sticky; top:0; z-index:100; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-bottom:3px solid #f28c28; }
+        .nav-wrapper { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+        .logo a { font-family:'Montserrat',sans-serif; font-weight:700; font-size:1.5rem; color:#1e3a6b; text-decoration:none; }
+        .logo a span { color:#f28c28; }
+        .nav-links { display:flex; gap:1.8rem; flex-wrap:wrap; align-items:center; }
+        .nav-links a { color:#1e3a6b; text-decoration:none; font-weight:700; font-size:0.95rem; transition:color 0.2s; padding:0.2rem 0; border-bottom:3px solid transparent; }
+        .nav-links a:hover, .nav-links a.active { color:#f28c28; border-bottom-color:#f28c28; }
+        .donate-btn { background:#f28c28; color:#fff !important; padding:0.4rem 1.4rem !important; border-radius:40px; border-bottom:none !important; }
+        .donate-btn:hover { background:#d9771e; border-bottom:none !important; }
+        .about-block { background:#fff; border-radius:28px; padding:2rem 2.5rem; border:1px solid #ece8e1; margin:2rem 0; }
+        .about-block h2 { color:#1e3a6b; border-left:6px solid #f28c28; padding-left:1rem; margin-bottom:1.5rem; }
+        .team-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:1.5rem; margin:1.5rem 0; }
+        .team-member { background:#f9f7f4; border-radius:20px; padding:1.2rem; text-align:center; }
+        .team-member .avatar { background:#e8e3dc; width:70px; height:70px; border-radius:60px; margin:0 auto 0.6rem; display:flex; align-items:center; justify-content:center; font-size:2rem; color:#888; }
+        .team-member h4 { color:#1e3a6b; font-size:0.95rem; }
+        .team-member .role { color:#777; font-size:0.8rem; }
+        footer { background:#1e3a6b; color:#c0d0e8; padding:2.5rem 0 1.5rem; margin-top:3rem; border-radius:40px 40px 0 0; }
+        footer .container { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; }
+        footer .social i { color:#ddd; margin-left:1rem; font-size:1.3rem; transition:0.2s; }
+        footer .social i:hover { color:#f28c28; }
+        @media (max-width:700px) { .nav-wrapper { flex-direction:column; gap:0.5rem; } .nav-links { gap:0.6rem; justify-content:center; } }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Lato',sans-serif; background:#f9f7f4; color:#1e1e1e; line-height:1.6; }
+        h1,h2,h3,h4 { font-family:'Montserrat',sans-serif; font-weight:700; letter-spacing:-0.02em; }
+        .container { max-width:1200px; margin:0 auto; padding:0 1.5rem; }
+        header { background:#fff; padding:0.8rem 0; position:sticky; top:0; z-index:100; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-bottom:3px solid #f28c28; }
+        .nav-wrapper { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+        .logo a { font-family:'Montserrat',sans-serif; font-weight:700; font-size:1.5rem; color:#1e3a6b; text-decoration:none; }
+        .logo a span { color:#f28c28; }
+        .nav-links { display:flex; gap:1.8rem; flex-wrap:wrap; align-items:center; }
+        .nav-links a { color:#1e3a6b; text-decoration:none; font-weight:700; font-size:0.95rem; transition:color 0.2s; padding:0.2rem 0; border-bottom:3px solid transparent; }
+        .nav-links a:hover, .nav-links a.active { color:#f28c28; border-bottom-color:#f28c28; }
+        .donate-btn { background:#f28c28; color:#fff !important; padding:0.4rem 1.4rem !important; border-radius:40px; border-bottom:none !important; }
+        .donate-btn:hover { background:#d9771e; border-bottom:none !important; }
+        .contact-block { background:#fff; border-radius:28px; padding:2rem 2.5rem; border:1px solid #ece8e1; margin:2rem 0; }
+        .contact-block h2 { color:#1e3a6b; border-left:6px solid #f28c28; padding-left:1rem; margin-bottom:1.5rem; }
+        .contact-grid { display:flex; flex-wrap:wrap; gap:2rem; margin-top:1.2rem; }
+        .contact-grid > div { flex:1 1 180px; }
+        .contact-grid i { color:#f28c28; margin-right:0.5rem; width:1.6rem; }
+        footer { background:#1e3a6b; color:#c0d0e8; padding:2.5rem 0 1.5rem; margin-top:3rem; border-radius:40px 40px 0 0; }
+        footer .container { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; }
+        footer .social i { color:#ddd; margin-left:1rem; font-size:1.3rem; transition:0.2s; }
+        footer .social i:hover { color:#f28c28; }
+        @media (max-width:700px) { .nav-wrapper { flex-direction:column; gap:0.5rem; } .nav-links { gap:0.6rem; justify-content:center; } }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Lato',sans-serif; background:#f9f7f4; color:#1e1e1e; line-height:1.6; }
+        h1,h2,h3,h4 { font-family:'Montserrat',sans-serif; font-weight:700; letter-spacing:-0.02em; }
+        .container { max-width:1200px; margin:0 auto; padding:0 1.5rem; }
+        header { background:#fff; padding:0.8rem 0; position:sticky; top:0; z-index:100; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-bottom:3px solid #f28c28; }
+        .nav-wrapper { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+        .logo a { font-family:'Montserrat',sans-serif; font-weight:700; font-size:1.5rem; color:#1e3a6b; text-decoration:none; }
+        .logo a span { color:#f28c28; }
+        .nav-links { display:flex; gap:1.8rem; flex-wrap:wrap; align-items:center; }
+        .nav-links a { color:#1e3a6b; text-decoration:none; font-weight:700; font-size:0.95rem; transition:color 0.2s; padding:0.2rem 0; border-bottom:3px solid transparent; }
+        .nav-links a:hover, .nav-links a.active { color:#f28c28; border-bottom-color:#f28c28; }
+        .donate-btn { background:#f28c28; color:#fff !important; padding:0.4rem 1.4rem !important; border-radius:40px; border-bottom:none !important; }
+        .donate-btn:hover { background:#d9771e; border-bottom:none !important; }
+        .btn-primary { background:#f28c28; border:none; padding:0.9rem 2.8rem; border-radius:60px; font-weight:700; font-size:1.1rem; color:#fff; cursor:pointer; transition:0.2s; text-decoration:none; display:inline-block; box-shadow:0 4px 14px rgba(242,140,40,0.35); }
+        .btn-primary:hover { background:#d9771e; transform:scale(1.02); }
+        .btn-submit { background:#1e3a6b; color:#fff; border:none; padding:0.8rem 2.8rem; border-radius:60px; font-weight:700; font-size:1rem; cursor:pointer; transition:0.2s; }
+        .btn-submit:hover { background:#f28c28; }
+        .form-group { margin-bottom:1.2rem; }
+        .form-group label { font-weight:700; display:block; margin-bottom:0.3rem; color:#1e3a6b; }
+        .form-group input, .form-group textarea, .form-group select { width:100%; padding:0.7rem 1.2rem; border:1px solid #ddd; border-radius:40px; font-family:'Lato',sans-serif; font-size:0.95rem; background:#faf8f6; outline:none; }
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color:#f28c28; box-shadow:0 0 0 3px rgba(242,140,40,0.12); }
+        .form-group textarea { border-radius:20px; min-height:120px; resize:vertical; }
+        footer { background:#1e3a6b; color:#c0d0e8; padding:2.5rem 0 1.5rem; margin-top:3rem; border-radius:40px 40px 0 0; }
+        footer .container { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; }
+        footer .social i { color:#ddd; margin-left:1rem; font-size:1.3rem; transition:0.2s; }
+        footer .social i:hover { color:#f28c28; }
+        @media (max-width:700px) { .nav-wrapper { flex-direction:column; gap:0.5rem; } .nav-links { gap:0.6rem; justify-content:center; } }
+        .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:2.5rem; margin:2rem 0; }
+        @media (max-width:800px) { .grid-2 { grid-template-columns:1fr; } }
+        .card-box { background:#fff; border-radius:28px; padding:2rem; border:1px solid #ece8e1; }
+        .card-box h2 { color:#1e3a6b; }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Lato',sans-serif; background:#f9f7f4; color:#1e1e1e; line-height:1.6; }
+        h1,h2,h3,h4 { font-family:'Montserrat',sans-serif; font-weight:700; letter-spacing:-0.02em; }
+        .container { max-width:1200px; margin:0 auto; padding:0 1.5rem; }
+        header { background:#fff; padding:0.8rem 0; position:sticky; top:0; z-index:100; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-bottom:3px solid #f28c28; }
+        .nav-wrapper { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+        .logo a { font-family:'Montserrat',sans-serif; font-weight:700; font-size:1.5rem; color:#1e3a6b; text-decoration:none; }
+        .logo a span { color:#f28c28; }
+        .nav-links { display:flex; gap:1.8rem; flex-wrap:wrap; align-items:center; }
+        .nav-links a { color:#1e3a6b; text-decoration:none; font-weight:700; font-size:0.95rem; transition:color 0.2s; padding:0.2rem 0; border-bottom:3px solid transparent; }
+        .nav-links a:hover, .nav-links a.active { color:#f28c28; border-bottom-color:#f28c28; }
+        .donate-btn { background:#f28c28; color:#fff !important; padding:0.4rem 1.4rem !important; border-radius:40px; border-bottom:none !important; }
+        .donate-btn:hover { background:#d9771e; border-bottom:none !important; }
+        .hero { background:linear-gradient(135deg,#1e3a6b 0%,#2a5298 100%); color:#fff; padding:3.5rem 2.5rem; border-radius:28px; margin-bottom:2.5rem; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; position:relative; overflow:hidden; }
+        .hero::after { content:"❤️"; font-size:10rem; opacity:0.06; position:absolute; right:-2rem; bottom:-3rem; }
+        .hero-content h1 { font-size:2.8rem; line-height:1.1; color:#fff; }
+        .hero-content h1 small { display:block; font-size:1.2rem; font-weight:400; font-family:'Lato',sans-serif; color:#e0e8f5; margin-top:0.5rem; }
+        .hero-content p { max-width:500px; color:#d0ddf5; margin:1rem 0 1.8rem; font-size:1.05rem; }
+        .btn-primary { background:#f28c28; border:none; padding:0.9rem 2.8rem; border-radius:60px; font-weight:700; font-size:1.1rem; color:#fff; cursor:pointer; transition:0.2s; text-decoration:none; display:inline-block; box-shadow:0 4px 14px rgba(242,140,40,0.35); }
+        .btn-primary:hover { background:#d9771e; transform:scale(1.02); }
+        .hero-stats { display:flex; gap:2.5rem; background:rgba(255,255,255,0.08); padding:1.5rem 2.5rem; border-radius:60px; backdrop-filter:blur(4px); border:1px solid rgba(255,255,255,0.1); }
+        .hero-stats .stat { text-align:center; }
+        .hero-stats .stat .number { font-size:2rem; font-weight:700; color:#f28c28; }
+        .hero-stats .stat .label { font-size:0.8rem; color:#c0d0e8; text-transform:uppercase; letter-spacing:0.5px; }
+        .donation-progress { background:#fff; border-radius:20px; padding:1.2rem 2rem; margin:1.5rem 0 2rem; border:1px solid #e8e3dc; }
+        .flex-row { display:flex; justify-content:space-between; flex-wrap:wrap; align-items:center; }
+        .donation-progress .goal { font-weight:700; color:#1e3a6b; }
+        .donation-progress .raised { color:#f28c28; font-weight:700; }
+        .progress-bar-bg { width:100%; height:10px; background:#e8e3dc; border-radius:20px; margin-top:0.6rem; overflow:hidden; }
+        .progress-bar-fill { height:100%; width:68%; background:linear-gradient(90deg,#f28c28,#f5a54a); border-radius:20px; }
+        .grid-3 { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:2rem; margin:1.5rem 0 2rem; }
+        .card { background:#fff; border-radius:24px; padding:1.8rem 1.5rem; border:1px solid #ece8e1; transition:0.2s; }
+        .card:hover { border-color:#f28c28; transform:translateY(-4px); }
+        .card .icon { background:#fef0e0; width:56px; height:56px; border-radius:60px; display:flex; align-items:center; justify-content:center; font-size:1.6rem; color:#f28c28; margin-bottom:1rem; }
+        .card h3 { font-size:1.2rem; color:#1e3a6b; }
+        .card p { color:#555; font-size:0.95rem; margin:0.5rem 0 0.8rem; }
+        .btn-outline { background:transparent; border:2px solid #f28c28; color:#f28c28; padding:0.3rem 1.6rem; border-radius:40px; font-weight:700; font-size:0.85rem; cursor:pointer; transition:0.2s; text-decoration:none; display:inline-block; }
+        .btn-outline:hover { background:#f28c28; color:#fff; }
+        .flex-between { display:flex; justify-content:space-between; flex-wrap:wrap; align-items:center; }
+        .badge-orange { background:#f28c28; color:#fff; padding:0.2rem 1.2rem; border-radius:60px; font-weight:700; font-size:0.8rem; display:inline-block; }
+        footer { background:#1e3a6b; color:#c0d0e8; padding:2.5rem 0 1.5rem; margin-top:3rem; border-radius:40px 40px 0 0; }
+        footer .container { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; }
+        footer .social i { color:#ddd; margin-left:1rem; font-size:1.3rem; transition:0.2s; }
+        footer .social i:hover { color:#f28c28; }
+        @media (max-width:700px) { .nav-wrapper { flex-direction:column; gap:0.5rem; } .nav-links { gap:0.6rem; justify-content:center; } .hero { flex-direction:column; text-align:center; padding:2rem 1.2rem; } .hero-stats { flex-wrap:wrap; justify-content:center; gap:1rem; padding:1rem; } .hero-content h1 { font-size:2rem; } }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Lato',sans-serif; background:#f9f7f4; color:#1e1e1e; line-height:1.6; }
+        h1,h2,h3,h4 { font-family:'Montserrat',sans-serif; font-weight:700; letter-spacing:-0.02em; }
+        .container { max-width:1200px; margin:0 auto; padding:0 1.5rem; }
+        header { background:#fff; padding:0.8rem 0; position:sticky; top:0; z-index:100; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-bottom:3px solid #f28c28; }
+        .nav-wrapper { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+        .logo a { font-family:'Montserrat',sans-serif; font-weight:700; font-size:1.5rem; color:#1e3a6b; text-decoration:none; }
+        .logo a span { color:#f28c28; }
+        .nav-links { display:flex; gap:1.8rem; flex-wrap:wrap; align-items:center; }
+        .nav-links a { color:#1e3a6b; text-decoration:none; font-weight:700; font-size:0.95rem; transition:color 0.2s; padding:0.2rem 0; border-bottom:3px solid transparent; }
+        .nav-links a:hover, .nav-links a.active { color:#f28c28; border-bottom-color:#f28c28; }
+        .donate-btn { background:#f28c28; color:#fff !important; padding:0.4rem 1.4rem !important; border-radius:40px; border-bottom:none !important; }
+        .donate-btn:hover { background:#d9771e; border-bottom:none !important; }
+        .blog-block { background:#fff; border-radius:28px; padding:2rem 2.5rem; border:1px solid #ece8e1; margin:2rem 0; }
+        .blog-block h2 { color:#1e3a6b; border-left:6px solid #f28c28; padding-left:1rem; margin-bottom:1.5rem; }
+        .blog-card { border-bottom:1px solid #ece8e1; padding:1.2rem 0; }
+        .blog-card:last-child { border-bottom:none; }
+        .blog-card .date { color:#f28c28; font-weight:700; font-size:0.85rem; }
+        .blog-card h3 { color:#1e3a6b; margin:0.2rem 0; }
+        .blog-card p { color:#555; }
+        footer { background:#1e3a6b; color:#c0d0e8; padding:2.5rem 0 1.5rem; margin-top:3rem; border-radius:40px 40px 0 0; }
+        footer .container { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; }
+        footer .social i { color:#ddd; margin-left:1rem; font-size:1.3rem; transition:0.2s; }
+        footer .social i:hover { color:#f28c28; }
+        @media (max-width:700px) { .nav-wrapper { flex-direction:column; gap:0.5rem; } .nav-links { gap:0.6rem; justify-content:center; } }
+
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Lato',sans-serif; background:#f9f7f4; color:#1e1e1e; line-height:1.6; }
+        h1,h2,h3,h4 { font-family:'Montserrat',sans-serif; font-weight:700; letter-spacing:-0.02em; }
+        .container { max-width:1200px; margin:0 auto; padding:0 1.5rem; }
+        header { background:#fff; padding:0.8rem 0; position:sticky; top:0; z-index:100; box-shadow:0 2px 12px rgba(0,0,0,0.06); border-bottom:3px solid #f28c28; }
+        .nav-wrapper { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+        .logo a { font-family:'Montserrat',sans-serif; font-weight:700; font-size:1.5rem; color:#1e3a6b; text-decoration:none; }
+        .logo a span { color:#f28c28; }
+        .nav-links { display:flex; gap:1.8rem; flex-wrap:wrap; align-items:center; }
+        .nav-links a { color:#1e3a6b; text-decoration:none; font-weight:700; font-size:0.95rem; transition:color 0.2s; padding:0.2rem 0; border-bottom:3px solid transparent; }
+        .nav-links a:hover, .nav-links a.active { color:#f28c28; border-bottom-color:#f28c28; }
+        .donate-btn { background:#f28c28; color:#fff !important; padding:0.4rem 1.4rem !important; border-radius:40px; border-bottom:none !important; }
+        .donate-btn:hover { background:#d9771e; border-bottom:none !important; }
+        .card { background:#fff; border-radius:24px; padding:1.8rem 1.5rem; border:1px solid #ece8e1; transition:0.2s; }
+        .card:hover { border-color:#f28c28; transform:translateY(-4px); }
+        .card .icon { background:#fef0e0; width:56px; height:56px; border-radius:60px; display:flex; align-items:center; justify-content:center; font-size:1.6rem; color:#f28c28; margin-bottom:1rem; }
+        .card h3 { font-size:1.2rem; color:#1e3a6b; }
+        .card p { color:#555; font-size:0.95rem; margin:0.5rem 0 0.8rem; }
+        .badge-orange { background:#f28c28; color:#fff; padding:0.2rem 1.2rem; border-radius:60px; font-weight:700; font-size:0.8rem; display:inline-block; }
+        .grid-3 { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:2rem; margin:1.5rem 0 2rem; }
+        footer { background:#1e3a6b; color:#c0d0e8; padding:2.5rem 0 1.5rem; margin-top:3rem; border-radius:40px 40px 0 0; }
+        footer .container { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; }
+        footer .social i { color:#ddd; margin-left:1rem; font-size:1.3rem; transition:0.2s; }
+        footer .social i:hover { color:#f28c28; }
+        @media (max-width:700px) { .nav-wrapper { flex-direction:column; gap:0.5rem; } .nav-links { gap:0.6rem; justify-content:center; } }
+
