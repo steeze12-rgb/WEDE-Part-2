@@ -1,1 +1,14 @@
 # WEDE-Part-2
+<img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/32d8f110-5890-40e4-95cb-0e9420c07b6c" />
+<img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/9527d2d5-8d1e-4175-843b-f10ef1b6c02d" />
+<img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/b829c8ca-9643-4662-be90-660006ad0273" />
+<img width="1366" height="768" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/5a9d0d9f-940f-4e8f-b70c-e91895b8b135" />
+<img width="1366" height="768" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/d674c3e5-f104-4afc-acf7-5d42517bc945" />
+<img width="1366" height="768" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/db5e0c46-0791-4e47-8e4e-408e77c69cfa" />
+Description of the Hope Haven website
+The Hope Haven Foundation website is a community-focused non-profit platform designed to communicate the organisation’s purpose, programmes and opportunities for public involvement in supporting vulnerable and orphaned children in Soweto. The website presents Hope Haven as an organisation established in 2019, with a mission centred on providing children with a safe environment, education and opportunities to develop their future. This purpose is particularly relevant within the South African context, where children continue to experience unequal access to education, nutrition, social protection and safe living environments (UNICEF South Africa, 2024). 
+ The website therefore focuses on three main programme areas: education, feeding and mentorship. The education programme provides after-school tutoring, school supplies and literacy support, while the feeding scheme provides nutritious meals through the organisation’s centre and partner schools. The mentorship programme focuses on one-to-one guidance, life-skills workshops and career coaching for teenagers aged 13–18. These areas reflect wider evidence that education is a fundamental right and an important means of developing knowledge, skills, confidence and opportunities for individuals and communities (UNESCO, 2026). 
+ The emphasis on food provision is also significant because nutrition and food security remain important challenges affecting children in South Africa, with UNICEF identifying malnutrition and inadequate diets among the continuing concerns for children and young people (UNICEF South Africa, 2024). 
+ Reference List
+ UNESCO (2026) Education: what you need to know and why it matters. Available at:https://www.unesco.org/en/articles/what-you-need-know-about-education-and-why-it-matters? (Accessed: 17 September 2026). 
+ UNICEF South Africa (2024) Situation Analysis of Children and Adolescents in South Africa 2024. Available at: https://www.unicef.org/southafrica/reports/situation-analysis-children-and-adolescents-south-africa-2024? (Accessed: 17 September 2026). 
